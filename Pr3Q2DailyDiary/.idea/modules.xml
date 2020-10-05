@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pr3Q2DailyDiary/app/build/generated/source/buildConfig/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/Pr3Q2DailyDiary/app/build/generated/source/buildConfig/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/build/generated/source/buildConfig/androidTest/androidTest2.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/build/generated/source/buildConfig/androidTest/androidTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pr3Q2DailyDiary/app/src/androidTest/androidTest3.iml" filepath="$PROJECT_DIR$/Pr3Q2DailyDiary/app/src/androidTest/androidTest3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/build/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/build/generated/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pr3Q2DailyDiary/app/build/generated/source/buildConfig/buildConfig1.iml" filepath="$PROJECT_DIR$/Pr3Q2DailyDiary/app/build/generated/source/buildConfig/buildConfig1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/bundle-manifest.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/bundle-manifest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/build/intermediates/merged_manifests/debug/debug.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/build/intermediates/merged_manifests/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/build/intermediates/merged_manifests/debugAndroidTest/debugAndroidTest.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/build/intermediates/merged_manifests/debugAndroidTest/debugAndroidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pr3Q2DailyDiary/app/src/main/main.iml" filepath="$PROJECT_DIR$/Pr3Q2DailyDiary/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/src/main/main1.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pr3Q2DailyDiary/app/build/generated/not_namespaced_r_class_sources/not_namespaced_r_class_sources.iml" filepath="$PROJECT_DIR$/Pr3Q2DailyDiary/app/build/generated/not_namespaced_r_class_sources/not_namespaced_r_class_sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/build/generated/not_namespaced_r_class_sources/not_namespaced_r_class_sources1.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/build/generated/not_namespaced_r_class_sources/not_namespaced_r_class_sources1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pr3Q2DailyDiary/app/src/test/test.iml" filepath="$PROJECT_DIR$/Pr3Q2DailyDiary/app/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TelephonyApi/app/src/test/test1.iml" filepath="$PROJECT_DIR$/TelephonyApi/app/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>

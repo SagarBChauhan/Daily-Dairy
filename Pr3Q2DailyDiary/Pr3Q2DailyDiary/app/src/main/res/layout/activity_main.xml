@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/txt_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DD-MM-YYYY"
+                android:inputType="date"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"/>
+            <Button
+                android:id="@+id/btn_SelectDate"
+                android:text="Select Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_primary"
+                android:textColor="@android:color/white"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txt_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="HH:MM:SS -M"
+                android:inputType="date"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"/>
+            <Button
+                android:id="@+id/btn_SelectTime"
+                android:text="Select Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_primary"
+                android:textColor="@android:color/white"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </TableRow>
+        <!--<DatePicker-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="20dp">-->
+        <!--</DatePicker>-->
+        <!--<TimePicker-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="20dp">-->
+        <!--</TimePicker>-->
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/ed_txt_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter task description"
+        android:inputType="textMultiLine"
+        android:maxLines="6"
+        android:minLines="6"
+        android:background="@drawable/round_ract_ltgrey"
+        android:textColorHint="@color/colorPrimary"
+        android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_Save"
+            android:text="Save"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:textColor="@android:color/white"
+            android:layout_marginHorizontal="20dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"/>
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:text="Cancel"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_grey"
+            android:textColor="@android:color/white"
+            android:layout_marginHorizontal="20dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task_Details"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task name:"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginRight="5dp">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="things to be done">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginVertical="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginRight="5dp">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_task_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DD/MM/YY">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txt_task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is description"
+            android:background="#E9EBF5"
+            android:padding="7dp"
+            android:minHeight="150dp">
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
